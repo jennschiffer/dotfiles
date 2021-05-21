@@ -108,10 +108,8 @@ PS1="\n" # Newline
 PS1+="${style_host}\h" # Host
 PS1+="${style_chars}:" # :
 PS1+="${style_path}\w " # Working directory
-PS1+="🐝  " # Most Important
+PS1+="👽✨  " # Most Important
 PS1+="${style_user}~*princess \u*~ " # Username
 PS1+="\$(prompt_git)" # Git details
 PS1+="\n" # Newline
 PS1+="${style_chars}\$ \[${RESET}\]" # (and reset color)
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
